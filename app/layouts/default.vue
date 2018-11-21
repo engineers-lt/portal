@@ -3,7 +3,9 @@
     <div class="container">
       <img
         src="/logo.png"
-        width="148">
+        width="148"
+        height="48"
+        style="height: 48px;">
     </div>
     <nuxt/>
     <footer>
@@ -38,7 +40,7 @@ html {
 }
 
 footer {
-  margin-top: 32px;
+  margin-top: 48px;
   padding: 16px 0;
   background-color: #333;
   text-align: center;
