@@ -1,55 +1,84 @@
 <template>
-  <div class="base">
-    <div
+  <a
+    :href="item.url"
+    class="base">
+    <img
+      :src="`${item.imageUrl}`"
       class="image"
-      style="background-image: url(https://dummyimage.com/360x240/aaa/fff)"
-    />
+      width="360"
+      height="240"
+    >
     <div class="contents">
-      <div class="date">2018.11.22</div>
-      <h3 class="title">秋の夜長の自由研究LT大会</h3>
+      <div class="date">{{ item.date }}</div>
+      <h3 class="title">{{ item.title }}</h3>
       <p class="description">
-        秋が深まり、夜が長くなってきましたね。<br>
-        エンジニアの皆さんはそんな夜に何をされていますか？<br>
-        コードを書いたり技術書を読んだりもいいですが、やっぱり自由なテーマでLTをするのが楽しいですよね。...
+        {{ item.description }}
       </p>
-      <div class="button">
+      <!-- <div class="button">
         イベントページへ
-      </div>
+      </div> -->
     </div>
-  </div>
+  </a>
 </template>
+
+<script>
+export default {
+  props: {
+    item: {
+      type: Object,
+      default: null
+    }
+  }
+}
+</script>
 
 <style>
 .base {
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 32px 12px 0;
+  width: 310px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .image {
-  width: 380px;
-  height: 0;
-  padding-bottom: 25%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin-right: 20px;
+  object-fit: cover;
+  height: 164px;
+  border-radius: 3px;
 }
 
 .date {
-  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
   color: #eb011e;
   font-weight: 600;
+  line-height: 1;
+  margin-top: 12px;
 }
 
 .title {
-  font-size: 32px;
+  font-size: 18px;
   font-weight: 600;
+  margin-top: 2px;
 }
 
 .description {
-  font-size: 14px;
-  margin-top: 8px;
+  font-size: 13px;
+  margin-top: 2px;
+  opacity: 0.8;
+
+  -webkit-box-orient: vertical;
+  line-height: 1.6;
+  max-height: 62.4px;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
 }
 
-.button {
+/* .button {
   background-color: #eb011e;
   display: inline-block;
   padding: 12px 48px;
@@ -58,6 +87,9 @@
   color: white;
   margin-top: 12px;
   font-size: 14px;
-  margin-top: 16px;
+  margin-top: 8px;
+} */
+
+@media screen and (max-width: 668px) {
 }
 </style>

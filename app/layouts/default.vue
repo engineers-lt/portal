@@ -1,11 +1,22 @@
 <template>
   <div>
+    <div class="container">
+      <img
+        src="/logo.png"
+        width="148">
+    </div>
     <nuxt/>
+    <footer>
+      <div class="container">
+        &copy; 2018 エンジニアの登壇を応援する会. All Rights Reserved.
+      </div>
+    </footer>
   </div>
 </template>
 
 <style>
 @import 'minireset.css';
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
 
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -26,32 +37,35 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+footer {
+  margin-top: 32px;
+  padding: 16px 0;
+  background-color: #333;
+  text-align: center;
+  color: white;
+  font-size: 12px;
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+.container {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px 0;
 }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 668px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+@media screen and (max-width: 668px) {
+  .container {
+    max-width: 334px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }
 </style>
