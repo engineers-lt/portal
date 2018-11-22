@@ -48,20 +48,20 @@ export default {
     return {
       events: [
         {
-          date: '2018.11.22',
-          title: '秋の夜長の自由研究LT大会',
+          date: '2018.12.11',
+          title: '読書の技術を勉強する会 #1',
           description:
-            '秋が深まり、夜が長くなってきましたね。 エンジニアの皆さんはそんな夜に何をされていますか？ コードを書いたり技術書を読んだりもいいですが、やっぱり自由なテーマでLTをするのが楽しいですよね。',
-          url: 'https://engineers.connpass.com/event/104940/',
+            '私たちエンジニアにとって『継続的な学習』は非常に重要です。その中でも多くの時間を、技術書を初めとした専門書の読書に費やしており、その他にもビジネス書や学術書など、様々な書籍を読むことで多くの知識を得ていますよね。',
+          url: 'https://engineers.connpass.com/event/110724/',
           imageUrl:
-            'https://connpass-tokyo.s3.amazonaws.com/thumbs/23/4a/234ad40f3532c7b82c9325cab7675e7f.png'
+            'https://connpass-tokyo.s3.amazonaws.com/thumbs/93/4a/934a11e9922141a5fc068a78cecc6e17.png'
         },
         {
           date: '2018.12.27',
           title: 'エンジニアの登壇を応援する忘年LT大会',
           description:
             '今年も残すところあとわずかとなりました！やはり年末といえば忘年会ですよね！ ということで、今年1年を締めくくるイベントとして、私たちエンジニアが「今年どんなアウトプットをしたか？」「来年どんな目標を掲げるか？」を日本酒の肴テーマにして振り返りを行うような忘年LT大会を実施します。',
-          url: 'https://engineers.connpass.com/event/107351/',
+          url: 'https://techplay.jp/event/705867',
           imageUrl:
             'https://connpass-tokyo.s3.amazonaws.com/thumbs/ff/86/ff86ebfe8d7b1dfc1f17baef99154802.png'
         }
