@@ -41,7 +41,10 @@ module.exports = {
     [
       '@nuxtjs/google-analytics',
       {
-        id: process.env.ANALYTICS_ID
+        id: 'UA-129667923-1',
+        debug: {
+          enabled: process.env.NODE_ENV === 'production'
+        }
       }
     ]
   ],
