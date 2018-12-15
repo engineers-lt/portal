@@ -1,5 +1,3 @@
-const pkg = require('./package')
-
 module.exports = {
   mode: 'spa',
   srcDir: 'app',
@@ -8,11 +6,16 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'エンジニアの登壇を応援する会',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          '『エンジニアの登壇を応援する会』は、エンジニアの皆さんに「アウトプットによって成長すること」を伝え、そして成長の過程を支援するコミュニティです。。'
+      }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
