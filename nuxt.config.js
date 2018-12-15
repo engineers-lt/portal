@@ -14,7 +14,7 @@ module.exports = {
         hid: 'description',
         name: 'description',
         content:
-          '『エンジニアの登壇を応援する会』は、エンジニアの皆さんに「アウトプットによって成長すること」を伝え、そして成長の過程を支援するコミュニティです。。'
+          '『エンジニアの登壇を応援する会』は、エンジニアの皆さんに「アウトプットによって成長すること」を伝え、そして成長の過程を支援するコミュニティです。'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
