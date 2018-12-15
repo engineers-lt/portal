@@ -48,15 +48,6 @@ export default {
     return {
       events: [
         {
-          date: '2018.11.22',
-          title: '秋の夜長の自由研究LT大会',
-          description:
-            '秋が深まり、夜が長くなってきましたね。 エンジニアの皆さんはそんな夜に何をされていますか？ コードを書いたり技術書を読んだりもいいですが、やっぱり自由なテーマでLTをするのが楽しいですよね。',
-          url: 'https://engineers.connpass.com/event/104940/',
-          imageUrl:
-            'https://connpass-tokyo.s3.amazonaws.com/thumbs/23/4a/234ad40f3532c7b82c9325cab7675e7f.png'
-        },
-        {
           date: '2018.12.27',
           title: 'エンジニアの登壇を応援する忘年LT大会',
           description:
@@ -67,6 +58,14 @@ export default {
         }
       ],
       reports: [
+        {
+          date: '2018.12.15',
+          title: '読書の技術を勉強する会#1 開催レポート',
+          description:
+            'エンジニアにとって学びとはなんでしょうか？ 私たちは、たくさんのアイデアをもとに新しい世界を作り上げていく仕事をしています。 しかしそこに到達するまでには多くの困難が待ち構え、技術的な視点から乗り越えていかなければなりません。',
+          url: 'https://ariaki.qrunch.io/entries/f8kLExGpSNWdoFUu',
+          imageUrl: 'https://s3.qrunch.io/X35puVxoVLw6mQUCrDssvt0C1jkyNtNO.png'
+        },
         {
           date: '2018.10.30',
           title: '執筆の技術を勉強する会を開催しました',
