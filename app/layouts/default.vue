@@ -1,13 +1,9 @@
 <template>
   <div>
     <div class="container">
-      <img
-        src="/logo.png"
-        width="148"
-        height="48"
-        style="height: 48px;">
+      <img src="/logo.png" width="148" height="48" style="height: 48px;" />
     </div>
-    <nuxt/>
+    <nuxt />
     <footer>
       <div class="container">
         &copy; 2018 エンジニアの登壇を応援する会. All Rights Reserved.

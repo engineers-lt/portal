@@ -1,19 +1,10 @@
 <template>
-  <a
-    :href="item.url"
-    class="base">
-    <img
-      :src="`${item.imageUrl}`"
-      class="image"
-      width="360"
-      height="240"
-    >
+  <a :href="item.url" class="base">
+    <img :src="`${item.imageUrl}`" class="image" width="360" height="240" />
     <div class="contents">
       <div class="date">{{ item.date }}</div>
       <h3 class="title">{{ item.title }}</h3>
-      <p class="description">
-        {{ item.description }}
-      </p>
+      <p class="description">{{ item.description }}</p>
       <!-- <div class="button">
         イベントページへ
       </div> -->

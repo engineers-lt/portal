@@ -1,12 +1,8 @@
 <template>
   <div>
     <div>
-      <section
-        style="background-color: #FAF5F5;">
-        <div
-          class="sectionContainer"
-          style="transform: translateY(-20px);"
-        >
+      <section style="background-color: #FAF5F5;">
+        <div class="sectionContainer" style="transform: translateY(-20px);">
           <h2>Next Event <small>開催予定のイベント</small></h2>
           <div class="reports">
             <report-item
@@ -38,6 +34,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 import ReportItem from '~/components/ReportItem.vue'
 
 export default {
