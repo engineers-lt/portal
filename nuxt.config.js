@@ -46,7 +46,7 @@ module.exports = {
       {
         id: 'UA-129667923-1',
         debug: {
-          enabled: process.env.NODE_ENV === 'production'
+          enabled: process.env.NODE_ENV !== 'production'
         }
       }
     ]
