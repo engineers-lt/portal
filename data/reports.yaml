@@ -3,6 +3,11 @@
   description: 今回は、一人5分のLTを12名の方が行いました。スライドなどが無いため、登壇者とその内容の概要を表形式でまとめてみました。
   url: https://kane.qrunch.io/entries/hUxBDZMVroiK25jd
   imageUrl: https://s3.qrunch.io/vJU9Qot0A0eyywN0T9GvaOMxVTQehi32.png
+- date: 2018.12.27
+  title: エンジニアの登壇を応援する忘年LT大会 開催レポート
+  description: 今回は「エンジニアの登壇を応援する忘年LT大会」ということで、参加者の方からいつもより参加費を少し多く頂き、飲食も豪華に年を忘れるイベントとして開催しました！
+  url: https://techplay.jp/eventreport/705867
+  imageUrl: https://s3-ap-northeast-1.amazonaws.com/s3.techplay.jp/tp-images/event/f9497b9b3bc35de2af8c0248ce15a6b92c7963ab.png
 - date: 2018.12.15
   title: 読書の技術を勉強する会#1 開催レポート
   description: エンジニアにとって学びとはなんでしょうか？ 私たちは、たくさんのアイデアをもとに新しい世界を作り上げていく仕事をしています。 しかしそこに到達するまでには多くの困難が待ち構え、技術的な視点から乗り越えていかなければなりません。
