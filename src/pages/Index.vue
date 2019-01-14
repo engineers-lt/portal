@@ -1,12 +1,12 @@
 <template>
   <Layout>
     <div>
-      <section style="background-color: #FAF5F5;">
+      <section>
         <div class="sectionContainer" style="transform: translateY(-20px);">
           <h2>Next Event <small>開催予定のイベント</small></h2>
           <div class="reports">
             <ReportItem
-              v-for="(report, key, index) in events"
+              v-for="(report, key, index) in $page.events.yaml"
               :key="index"
               :item="report"
             />
@@ -17,7 +17,7 @@
         <h2>Reports <small>活動報告</small></h2>
         <div class="reports">
           <ReportItem
-            v-for="(report, key, index) in reports"
+            v-for="(report, key, index) in $page.reports.yaml"
             :key="index"
             :item="report"
           />
@@ -33,6 +33,29 @@
   </Layout>
 </template>
 
+<page-query>
+query {
+  reports: report(path: "/data/reports") {
+    yaml {
+      date
+      title
+      description
+      url
+      imageUrl
+    }
+  }
+  events: event(path: "/data/events") {
+    yaml {
+      date
+      title
+      description
+      url
+      imageUrl
+    }
+  }
+}
+</page-query>
+
 <script>
 // import axios from 'axios'
 import ReportItem from '~/components/ReportItem.vue'
@@ -40,12 +63,6 @@ import ReportItem from '~/components/ReportItem.vue'
 export default {
   components: {
     ReportItem
-  },
-  data() {
-    return {
-      events: [],
-      reports: [],
-    }
   }
 }
 </script>

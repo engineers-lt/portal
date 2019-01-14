@@ -18,7 +18,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'data/events.yaml',
-        typeName: 'Report',
+        typeName: 'Event',
       }
     },
   ]

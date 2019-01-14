@@ -1,6 +1,6 @@
 <template>
   <a :href="item.url" class="base">
-    <img :src="`${item.imageUrl}`" class="image" width="360" height="240" />
+    <img :src="`${item.imageUrl.src}`" class="image" width="360" height="240" />
     <div class="contents">
       <div class="date">{{ item.date }}</div>
       <h3 class="title">{{ item.title }}</h3>
