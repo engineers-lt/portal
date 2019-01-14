@@ -1,13 +1,7 @@
 <template>
   <div class="layout">
     <header class="header">
-      <strong>
-        <g-link :to="{ name: 'home' }">{{ $static.metaData.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" :to="{ name: 'home' }">Home</g-link>
-        <g-link class="nav__link" :to="{ name: 'about' }">About</g-link>
-      </nav>
+      <div class="container"><img src="/logo.png" width="216" height="58" :alt="$static.metaData.siteName"  /></div>
     </header>
     <slot/>
   </div>
@@ -22,29 +16,60 @@ query {
 </static-query>
 
 <style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+html {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
 }
 
-.layout {
-  max-width: 760px;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+footer {
+  margin-top: 48px;
+  padding: 16px 0;
+  background-color: #333;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.container {
+  max-width: 980px;
+  width: 100%;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 16px 0;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 668px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }
 
-.nav__link {
-  margin-left: 20px;
+@media screen and (max-width: 668px) {
+  .container {
+    max-width: 334px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }
 </style>

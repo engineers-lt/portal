@@ -1,31 +1,103 @@
 <template>
   <Layout>
-    
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-    
-    <h1>Hello, world!</h1>
-   
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs" target="_blank">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank">GitHub</a>
-    </p>
-
+    <div>
+      <section style="background-color: #FAF5F5;">
+        <div class="sectionContainer" style="transform: translateY(-20px);">
+          <h2>Next Event <small>開催予定のイベント</small></h2>
+          <div class="reports">
+            <ReportItem
+              v-for="(report, key, index) in events"
+              :key="index"
+              :item="report"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="sectionContainer">
+        <h2>Reports <small>活動報告</small></h2>
+        <div class="reports">
+          <ReportItem
+            v-for="(report, key, index) in reports"
+            :key="index"
+            :item="report"
+          />
+        </div>
+      </section>
+    </div>
+    <!-- <section
+      style="background-color: red;">
+      <div class="sectionContainer">
+        <h2 style="color: white;">Join our Slack <small>参加はこちら</small></h2>
+      </div>
+    </section> -->
   </Layout>
 </template>
 
 <script>
+// import axios from 'axios'
+import ReportItem from '~/components/ReportItem.vue'
+
 export default {
- // ..
+  components: {
+    ReportItem
+  },
+  data() {
+    return {
+      events: [],
+      reports: [],
+    }
+  }
 }
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
+<style scope>
+.heroImage {
+  max-width: 60%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.sectionContainer {
+  max-width: calc(980px + 24px);
+  width: 100%;
+  margin: 32px auto 0 auto;
+}
+
+section h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #30A192;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 1;
+  padding: 0 12px;
+}
+
+section h2 small {
+  color: #222;
+  font-size: 16px;
+}
+
+.reports {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+  padding: 0 12px;
+}
+
+@media screen and (max-width: 1000px) {
+  .sectionContainer {
+    max-width: 668px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .sectionContainer {
+    max-width: 334px;
+  }
+
+  section h2 small {
+    display: block;
+  }
 }
 </style>
