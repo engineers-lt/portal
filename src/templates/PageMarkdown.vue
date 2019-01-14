@@ -11,7 +11,7 @@
 export default {
   metaInfo () {
     return {
-      title: this.$page.blogPost.title
+      title: this.$page.pageMarkdown.title
     }
   }
 }
@@ -20,6 +20,7 @@ export default {
 <page-query>
   query PageMarkdown ($path: String!) {
     pageMarkdown (path: $path) {
+      title
       slug
       content
     }
