@@ -553,6 +553,16 @@
     semver "^5.6.0"
     sort-package-json "^1.15.0"
 
+"@gridsome/source-filesystem@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@gridsome/source-filesystem/-/source-filesystem-0.2.0.tgz#ee6104b6a634c59965f468673fbd455a4eec408e"
+  dependencies:
+    chokidar "^2.0.4"
+    fs-extra "^7.0.0"
+    globby "^8.0.1"
+    lodash "^4.17.10"
+    slash "^2.0.0"
+
 "@hjvedvik/tasks@^0.0.8":
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/@hjvedvik/tasks/-/tasks-0.0.8.tgz#69440b92fccbe22c20c8d8788e723eac8f60aa59"
@@ -3033,6 +3043,14 @@ fs-extra@^6.0.1:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
+fs-extra@^7.0.0:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 fs-minipass@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/fs-minipass/-/fs-minipass-1.2.5.tgz#06c277218454ec288df77ada54a03b8702aacb9d"
@@ -3301,6 +3319,11 @@ graphql@^0.13.2:
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.13.2.tgz#4c740ae3c222823e7004096f832e7b93b2108270"
   dependencies:
     iterall "^1.2.1"
+
+"gridsome-transformer-yaml@file:./plugins/gridsome-transformer-yaml":
+  version "1.0.0"
+  dependencies:
+    js-yaml "^3.12.1"
 
 gridsome@^0.4.0:
   version "0.4.3"
@@ -4153,7 +4176,7 @@ js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
-js-yaml@^3.5.2, js-yaml@^3.9.0:
+js-yaml@^3.12.1, js-yaml@^3.5.2, js-yaml@^3.9.0:
   version "3.12.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.1.tgz#295c8632a18a23e054cf5c9d3cecafe678167600"
   dependencies:

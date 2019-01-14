@@ -1,4 +1,4 @@
-// This is where project configuration and installed plugin options are located. 
+// This is where project configuration and installed plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here requires a server restart to work properly.
@@ -6,5 +6,20 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'data/reports.yaml',
+        typeName: 'Report',
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'data/events.yaml',
+        typeName: 'Report',
+      }
+    },
+  ]
 }
