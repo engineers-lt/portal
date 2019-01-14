@@ -21,5 +21,13 @@ module.exports = {
         typeName: 'Event',
       }
     },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'data/pages/*.md',
+        typeName: 'PageMarkdown',
+        route: '/:slug',
+      }
+    },
   ]
 }

@@ -1,7 +1,8 @@
 <template>
   <div class="layout">
     <header class="header">
-      <div class="container"><img src="/logo.png" width="216" height="58" :alt="$static.metaData.siteName"  /></div>
+      <div class="container">
+        <g-link to='/'><img src="/logo.png" width="216" height="58" :alt="$static.metaData.siteName"  /></g-link></div>
     </header>
     <slot/>
   </div>
