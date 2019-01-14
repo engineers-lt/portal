@@ -1,34 +1,12 @@
 {
   "name": "portal",
-  "version": "1.0.0",
-  "description": "My spectacular Nuxt.js project",
-  "author": "mottox2",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "node buildData.js & nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.0.0",
-    "@nuxtjs/google-analytics": "^2.0.2",
-    "axios": "^0.18.0",
-    "cross-env": "^5.2.0",
-    "minireset.css": "^0.0.3",
-    "nuxt": "^2.3.4",
-    "yamljs": "^0.3.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.12.0",
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-prettier": "3.0.1",
-    "eslint-plugin-vue": "^5.1.0",
-    "nodemon": "^1.18.7",
-    "prettier": "1.15.3"
+    "gridsome": "^0.4.0"
   }
 }
