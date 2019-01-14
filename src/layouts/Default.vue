@@ -3,6 +3,7 @@
     <header class="header">
       <div class="container">
         <g-link to='/'><img src="/logo.png" width="216" height="58" :alt="$static.metaData.siteName"  /></g-link></div>
+        <g-link to='/about'>About</g-link>
     </header>
     <slot/>
   </div>
