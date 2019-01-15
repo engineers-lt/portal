@@ -1,12 +1,12 @@
 <template>
   <div class="layout">
     <app-header/>
-    <!-- <header class="header">
-      <div class="container">
-        <g-link to='/'><img src="/logo.png" width="216" height="58" :alt="$static.metaData.siteName"  /></g-link></div>
-        <g-link to='/about'>About</g-link>
-    </header> -->
     <slot/>
+    <footer class='footer'>
+      <div class="container">
+        &copy; 2018 エンジニアの登壇を応援する会. All Rights Reserved.
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -89,5 +89,14 @@ footer {
     padding-left: 12px;
     padding-right: 12px;
   }
+}
+
+.footer {
+  margin-top: 48px;
+  padding: 16px 0;
+  background-color: #333;
+  text-align: center;
+  color: white;
+  font-size: 12px;
 }
 </style>
