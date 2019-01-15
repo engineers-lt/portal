@@ -1,23 +1,23 @@
 <template>
-  <div>
+  <Layout>
     <div>
-      <section style="background-color: #FAF5F5;">
-        <div class="sectionContainer" style="transform: translateY(-20px);">
+      <section>
+        <div class="container">
           <h2>Next Event <small>開催予定のイベント</small></h2>
           <div class="reports">
-            <report-item
-              v-for="(report, key, index) in events"
+            <ReportItem
+              v-for="(report, key, index) in $page.events.yaml"
               :key="index"
               :item="report"
             />
           </div>
         </div>
       </section>
-      <section class="sectionContainer">
+      <section class="container">
         <h2>Reports <small>活動報告</small></h2>
         <div class="reports">
-          <report-item
-            v-for="(report, key, index) in reports"
+          <ReportItem
+            v-for="(report, key, index) in $page.reports.yaml"
             :key="index"
             :item="report"
           />
@@ -30,26 +30,44 @@
         <h2 style="color: white;">Join our Slack <small>参加はこちら</small></h2>
       </div>
     </section> -->
-  </div>
+  </Layout>
 </template>
 
+<page-query>
+query {
+  reports: report(path: "/data/reports") {
+    yaml {
+      date
+      title
+      description
+      url
+      imageUrl
+    }
+  }
+  events: event(path: "/data/events") {
+    yaml {
+      date
+      title
+      description
+      url
+      imageUrl
+    }
+  }
+}
+</page-query>
+
 <script>
-import axios from 'axios'
+// import axios from 'axios'
 import ReportItem from '~/components/ReportItem.vue'
 
 export default {
   components: {
     ReportItem
   },
-  async asyncData() {
-    const { data: reports } = await axios.get('./reports.json')
-    const { data: events } = await axios.get('./events.json')
-    return { events, reports }
-  }
 }
 </script>
 
-<style>
+<style scope>
 .heroImage {
   max-width: 60%;
   position: absolute;
@@ -65,11 +83,9 @@ export default {
 
 section h2 {
   font-family: 'Poppins', sans-serif;
-  color: #eb011e;
+  color: #30A192;
   font-weight: 600;
   font-size: 50px;
-  line-height: 1;
-  padding: 0 12px;
 }
 
 section h2 small {
@@ -81,7 +97,6 @@ section h2 small {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -12px;
-  padding: 0 12px;
 }
 
 @media screen and (max-width: 1000px) {
