@@ -8,6 +8,12 @@ module.exports = {
   siteName: 'Gridsome',
   plugins: [
     {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-129667923-1'
+      }
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'data/reports.yaml',

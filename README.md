@@ -1,5 +1,10 @@
 # Default starter for Gridsome
-`
+
+`data` 配下にある以下のyamlを更新することで、コンテンツの更新が可能です
+
+- `events.yaml`: 直近のイベント
+- `reports.yaml`: イベントレポート
+
 ### 1. Install Gridsome CLI tool if you don't have
 
 `npm install --global @gridsome/cli`
