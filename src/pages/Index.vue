@@ -2,7 +2,7 @@
   <Layout>
     <div>
       <section>
-        <div class="sectionContainer" style="transform: translateY(-20px);">
+        <div class="container">
           <h2>Next Event <small>開催予定のイベント</small></h2>
           <div class="reports">
             <ReportItem
@@ -13,7 +13,7 @@
           </div>
         </div>
       </section>
-      <section class="sectionContainer">
+      <section class="container">
         <h2>Reports <small>活動報告</small></h2>
         <div class="reports">
           <ReportItem
@@ -63,7 +63,7 @@ import ReportItem from '~/components/ReportItem.vue'
 export default {
   components: {
     ReportItem
-  }
+  },
 }
 </script>
 
@@ -86,8 +86,6 @@ section h2 {
   color: #30A192;
   font-weight: 600;
   font-size: 50px;
-  line-height: 1;
-  padding: 0 12px;
 }
 
 section h2 small {
@@ -99,7 +97,6 @@ section h2 small {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -12px;
-  padding: 0 12px;
 }
 
 @media screen and (max-width: 1000px) {

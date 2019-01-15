@@ -16,7 +16,20 @@ import Header from '~/components/Header.vue'
 export default {
   components: {
     AppHeader: Header
+  },
+  metaInfo: {
+    title: 'エンジニアの登壇を応援する会',
+    titleTemplate: '%s | エンジニアの登壇を応援する会',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { key: 'description', name: 'description', content: '『エンジニアの登壇を応援する会』は、エンジニアの皆さんに「アウトプットによって成長すること」を伝え、そして成長の過程を支援するコミュニティです。' }
+    ],
+    htmlAttrs: {
+      lang: 'ja',
+    }
   }
+
 }
 </script>
 
