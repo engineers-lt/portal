@@ -59,36 +59,11 @@ html {
   margin: 0;
 }
 
-footer {
-  margin-top: 48px;
-  padding: 16px 0;
-  background-color: #333;
-  text-align: center;
-  color: white;
-  font-size: 12px;
-}
-
 .container {
-  max-width: 980px;
-  width: 100%;
+  max-width: 100%;
+  width: 1004px;
   margin: 0 auto;
-  padding: 16px 0;
-}
-
-@media screen and (max-width: 1000px) {
-  .container {
-    max-width: 668px;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-}
-
-@media screen and (max-width: 668px) {
-  .container {
-    max-width: 334px;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
+  padding: 16px 12px;
 }
 
 .footer {
