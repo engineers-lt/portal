@@ -28,7 +28,7 @@ export default {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 32px 12px 0;
+  margin: 12px;
   width: calc(33% - 24px);
   text-decoration: none;
   color: inherit;

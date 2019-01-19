@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div>
-      <section>
+      <section style="background-color: #fafafa;">
         <div class="container">
           <h2>Next Event <small>開催予定のイベント</small></h2>
           <div class="reports">
