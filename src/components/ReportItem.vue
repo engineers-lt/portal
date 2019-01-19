@@ -29,9 +29,21 @@ export default {
   align-items: center;
   flex-direction: column;
   margin: 32px 12px 0;
-  width: 310px;
+  width: calc(33% - 24px);
   text-decoration: none;
   color: inherit;
+}
+
+@media screen and (max-width: 980px) {
+  .base {
+    width: calc(50% - 24px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .base {
+    width: 100%;
+  }
 }
 
 .image {

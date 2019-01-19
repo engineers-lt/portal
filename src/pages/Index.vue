@@ -67,18 +67,12 @@ export default {
 }
 </script>
 
-<style scope>
+<style scoped>
 .heroImage {
   max-width: 60%;
   position: absolute;
   right: 0;
   bottom: 0;
-}
-
-.sectionContainer {
-  max-width: calc(980px + 24px);
-  width: 100%;
-  margin: 32px auto 0 auto;
 }
 
 section h2 {
@@ -99,17 +93,7 @@ section h2 small {
   margin: 0 -12px;
 }
 
-@media screen and (max-width: 1000px) {
-  .sectionContainer {
-    max-width: 668px;
-  }
-}
-
 @media screen and (max-width: 668px) {
-  .sectionContainer {
-    max-width: 334px;
-  }
-
   section h2 small {
     display: block;
   }
