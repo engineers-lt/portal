@@ -13,5 +13,8 @@
     "gridsome": "^0.4.0",
     "gridsome-transformer-yaml": "file:./plugins/gridsome-transformer-yaml",
     "minireset.css": "^0.0.3"
+  },
+  "devDependencies": {
+    "svg-to-vue-component": "^0.3.2"
   }
 }
