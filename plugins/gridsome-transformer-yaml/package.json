@@ -1,9 +1,0 @@
-{
-  "name": "gridsome-transformer-yaml",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "js-yaml": "^3.12.1"
-  }
-}
