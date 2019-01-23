@@ -6,7 +6,7 @@
           <h2>Next Event <small>開催予定のイベント</small></h2>
           <div class="reports">
             <ReportItem
-              v-for="(report, key, index) in $page.events.yaml"
+              v-for="(report, key, index) in $page.events.data"
               :key="index"
               :item="report"
             />
@@ -17,7 +17,7 @@
         <h2>Reports <small>活動報告</small></h2>
         <div class="reports">
           <ReportItem
-            v-for="(report, key, index) in $page.reports.yaml"
+            v-for="(report, key, index) in $page.reports.data"
             :key="index"
             :item="report"
           />
@@ -36,7 +36,7 @@
 <page-query>
 query {
   reports: report(path: "/data/reports") {
-    yaml {
+    data {
       date
       title
       description
@@ -45,7 +45,7 @@ query {
     }
   }
   events: event(path: "/data/events") {
-    yaml {
+    data {
       date
       title
       description

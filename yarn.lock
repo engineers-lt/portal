@@ -589,6 +589,12 @@
     unified "^7.0.0"
     unist-util-visit "^1.4.0"
 
+"@gridsome/transformer-yaml@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@gridsome/transformer-yaml/-/transformer-yaml-0.1.0.tgz#879b06e33e406a514770e511927dfa4abf2e5105"
+  dependencies:
+    js-yaml "^3.12.1"
+
 "@hjvedvik/tasks@^0.0.8":
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/@hjvedvik/tasks/-/tasks-0.0.8.tgz#69440b92fccbe22c20c8d8788e723eac8f60aa59"
@@ -3503,11 +3509,6 @@ gray-matter@^4.0.1:
     kind-of "^6.0.2"
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
-
-"gridsome-transformer-yaml@file:./plugins/gridsome-transformer-yaml":
-  version "1.0.0"
-  dependencies:
-    js-yaml "^3.12.1"
 
 gridsome@^0.4.0:
   version "0.4.3"
@@ -7312,14 +7313,6 @@ svg-to-vue-component@^0.3.2:
     posthtml "^0.11.3"
     svgo "^1.1.1"
 
-svg-to-vue@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/svg-to-vue/-/svg-to-vue-0.3.0.tgz#03f69bac4824bf5e32069ceca15779cd74100b24"
-  dependencies:
-    svgo "^1.1.1"
-    vue-template-compiler "^2.5.17"
-    vue-template-es2015-compiler "^1.6.0"
-
 svgo@^0.7.0:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-0.7.2.tgz#9f5772413952135c6fefbf40afe6a4faa88b4bb5"
@@ -8016,13 +8009,6 @@ vue-style-loader@^4.1.0:
   dependencies:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
-
-vue-svg-loader@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/vue-svg-loader/-/vue-svg-loader-0.11.0.tgz#1c1b6cbd6ef852ae1b26a2de7f63faa95a6b80c1"
-  dependencies:
-    loader-utils "^1.1.0"
-    svg-to-vue "^0.3.0"
 
 vue-template-compiler@^2.5.17:
   version "2.5.22"
