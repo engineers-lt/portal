@@ -24,6 +24,16 @@
         </div>
       </section>
     </div>
+    <section class="container">
+      <h2>Members <small>運営メンバー</small></h2>
+      <div class="reports">
+        <div v-for="(profileEdge) in $page.profiles.edges">
+          <h3>{{ profileEdge.node.screenName }} <small>@{{ profileEdge.node.accountName }}</small></h3>
+          <img :src="profileEdge.node.avatarUrl.src"/>
+          <p>{{ profileEdge.node.description }}</p>
+        </div>
+      </div>
+    </section>
     <!-- <section
       style="background-color: red;">
       <div class="sectionContainer">
@@ -53,6 +63,17 @@ query {
       imageUrl
     }
   }
+  profiles: allMemberProfile {
+    edges {
+      node {
+        screenName
+        accountName
+        avatarUrl
+        description
+      }
+    }
+  }
+
 }
 </page-query>
 
