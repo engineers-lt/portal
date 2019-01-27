@@ -40,6 +40,7 @@ module.exports = {
       options: {
         path: 'data/members/*.yaml',
         typeName: 'MemberProfile',
+        route: '/members/:accountName',
       }
     },
   ]
