@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <div>
+      <!--
       <section style="background-color: #fafafa;">
         <div class="container">
           <h2>Next Event <small>開催予定のイベント</small></h2>
@@ -13,6 +14,7 @@
           </div>
         </div>
       </section>
+      -->
       <section class="container">
         <h2>Reports <small>活動報告</small></h2>
         <div class="reports">
@@ -44,15 +46,15 @@ query {
       imageUrl
     }
   }
-  events: event(path: "/data/events") {
-    data {
-      date
-      title
-      description
-      url
-      imageUrl
-    }
-  }
+  # events: event(path: "/data/events") {
+  #   data {
+  #     date
+  #     title
+  #     description
+  #     url
+  #     imageUrl
+  #   }
+  # }
 }
 </page-query>
 
