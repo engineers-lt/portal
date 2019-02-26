@@ -11,7 +11,7 @@ slug: about
 この機会に登壇や執筆を始めてみませんか？
 皆さんが成長される道のりについて一緒に悩み、傍に寄り添って支援を続け、共に成長していけるようなコミュニティになればと思っています。
 
-2018/12/15 @ariaki
+2018/12/15 [@ariaki](https://twitter.com/ariaki4dev)
 
 ## コミュニティの参加方法
 ### Slack ワークスペースへの参加
@@ -19,16 +19,17 @@ slug: about
 どなたでも自由に参加いただけますので、当会に興味を持たれた方は是非以下よりジョインしてください。
 各チャンネルの使い方についてはSlackワークスペースの使い方をご覧ください。
 
-* [Slack ワークスペース​](https://engineers-lt.slack.com/messages)
+* [Slackワークスペース​にジョインする](http://bit.ly/elt-slack)
 * [Slackワークスペースの使い方](https://esa-pages.io/p/sharing/10407/posts/323/ce3991442dec35d263c6.html)
 
 ### イベントへの参加
 また、私たちは、エンジニア向け勉強会など定期的なコミュニティイベントを開催しています。
-新着イベントは Connpass グループで告知されますので、是非ジョインしてください。
+新着イベントは以下のイベントグループで告知されますので、是非ジョインしてください。
 
-* [エンジニアの登壇を応援する会 - Connpass​](https://engineers.connpass.com/)
+* [Connpass​](https://engineers.connpass.com/)
+* [TECH PLAY](https://techplay.jp/community/engineers-lt)
 
-また、一部のイベントに関しては、 Connpass 以外で告知をすることもございますので、コミュニティの最新情報を手に入れるために公式 Twitter をフォローしてください。
+また、その他のコミュニティ最新情報を手に入れるために、ぜひ公式 Twitter をフォローしてください。
 
 * [エンジニアの登壇を応援する会 - Twitter](https://twitter.com/engineers_lt)
 
@@ -46,4 +47,4 @@ slug: about
 私たち運営スタッフは全てのエンジニアの成長を願い、 [行動指針](https://esa-pages.io/p/sharing/10407/posts/322/140ac3d54a5484ff1ae5.html) によって結束しています。
 運営に興味を持たれた方は是非気軽にスタッフまでコンタクトをとってみてください。
 
-情報会議の運営スタッフの情報共有に esa を利用させていただいております。
+私たちは、運営スタッフの情報共有に [esa.io](https://esa.io/) を利用させていただいております。
