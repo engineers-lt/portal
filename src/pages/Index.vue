@@ -44,15 +44,15 @@ query {
       imageUrl
     }
   }
-  # events: event(path: "/data/events") {
-  #   data {
-  #     date
-  #     title
-  #     description
-  #     url
-  #     imageUrl
-  #   }
-  # }
+  events: event(path: "/data/events") {
+    data {
+      date
+      title
+      description
+      url
+      imageUrl
+    }
+  }
 }
 </page-query>
 

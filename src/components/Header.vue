@@ -11,7 +11,7 @@
         <a href="https://twitter.com/engineers_lt" class="share twitter">
           <twitter/>
         </a>
-        <a href="https://engineers-lt.slack.com" class="share slack">
+        <a href="http://bit.ly/elt-slack" class="share slack">
           <slack/>
           <span>Join our slack</span>
         </a>
