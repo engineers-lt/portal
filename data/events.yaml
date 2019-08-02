@@ -1,17 +1,11 @@
-- date: 2019.5.18
-  title: エンジニアの成長を支える 1on1 ワークショップ 
-  description: みなさんが勤められている会社では「1on1」されていますか？ 本イベントは、この「1on1」の技法を学ぶためのワークショップです。 1on1における心構えや流れをお伝えすると共に、参加者がワークショップを通じて疑似体験することで魅力に気づき、持ち帰って自社内でも実践して頂くことを目指します。
-  url: https://engineers.connpass.com/event/126523/
-  imageUrl: https://connpass-tokyo.s3.amazonaws.com/thumbs/85/01/8501007dffbc86083f0292172bb77e5f.png
-
-- date: 2019.6.7
-  title: アウトプットのススメ
-  description: この勉強会では、技術同人誌執筆、勉強会での登壇、Podcastなどを通じて日常的にアウトプットしている人たちが、アウトプットのメリット・魅力について熱く語ります。技術書典などのイベントを通じ、技術同人誌というジャンルが拡大しています。様々なジャンルの勉強会が毎日のように開催され登壇機会は増えていますし、Podcastなど、媒体こそさまざまですが、アウトプットが可能になっています。何をすればいい？何かにつながるの？どうやればいいの？誰の目にも止まらないでしょ？そういった疑問に応えます。アウトプットは楽しいぞ！アウトプットをすることで絶対にあなたは成長します！
-  url: https://engineers.connpass.com/event/130428/
-  imageUrl: https://connpass-tokyo.s3.amazonaws.com/thumbs/83/ee/83ee2ea0e4963d45ca9696f157249940.png
+- date: 2019.9.4
+  title: 残暑に負けるな！自由研究LT大会
+  description: 「自由研究LT大会」は、初心者が技術に囚われず自由にLTして登壇技術を磨くためのイベントです。登壇に対して不安のある方を後押しする目的で実施しています。
+  url: https://engineers.connpass.com/event/141228/
+  imageUrl: https://connpass-tokyo.s3.amazonaws.com/thumbs/ac/24/ac24fc028fa7ac7c9fd20901e98b4e99.png
 
 
-- date: 2019.7.27
+- date: 2019.12.14
   title: 技術書同人誌博覧会
   description: 技術書同人誌博覧会は、エンジニアが技術書の頒布を通じて知識を共有する為のイベントです。サークル出展する個々のエンジニアが、それぞれ最も得意とする技術、最も世に広めたい技術を『技術書』として持ち寄り頒布することで、高い知識がコミュニティに還元されます。
   url: https://gishohaku.dev/?utm_source=website&utm_medium=portal&utm_campaign=top
