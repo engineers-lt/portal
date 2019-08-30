@@ -5,7 +5,7 @@
       <g-link class="logo" to='/'><img src="/logo.png" width="216" height="58" :alt="$static.metaData.siteName"  /></g-link>
       <nav class="headerNav">
         <g-link to='/about'>About</g-link>
-        <g-link to='/guideline'>s“®‹K”Í</g-link>
+        <g-link to='/guideline'>è¡Œå‹•è¦ç¯„</g-link>
       </nav>
       <div class='shares'>
         <a href="https://twitter.com/engineers_lt" class="share twitter">
