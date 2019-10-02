@@ -19,7 +19,7 @@ slug: about
 どなたでも自由に参加いただけますので、当会に興味を持たれた方は是非以下よりジョインしてください。
 各チャンネルの使い方についてはSlackワークスペースの使い方をご覧ください。
 
-* [Slackワークスペース​にジョインする](http://bit.ly/elt-slack)
+* [Slackワークスペース​にジョインする](http://bit.ly/engineers_lt)
 * [Slackワークスペースの使い方](https://esa-pages.io/p/sharing/10407/posts/323/ce3991442dec35d263c6.html)
 
 ### イベントへの参加
