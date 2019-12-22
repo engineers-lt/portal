@@ -1,11 +1,5 @@
-- date: 2019.10.25
-  title: 全員登壇！FlashTalk大会
-  description: 限られた時間の中でトーク技術を最大限駆使して聴衆に伝え、発信力を鍛えるためのトーク大会です。重要なセンテンスをぎゅっと凝縮して的確に伝えるための練習をみんなでやりましょう。
-  url: https://engineers.connpass.com/event/145032/
-  imageUrl: https://connpass-tokyo.s3.amazonaws.com/thumbs/52/08/5208f2ab8d3f030bde4466df8d9d40a0.png
-
-- date: 2019.12.14
-  title: 技術書同人誌博覧会
-  description: 技術書同人誌博覧会は、エンジニアが技術書の頒布を通じて知識を共有する為のイベントです。サークル出展する個々のエンジニアが、それぞれ最も得意とする技術、最も世に広めたい技術を『技術書』として持ち寄り頒布することで、高い知識がコミュニティに還元されます。
-  url: https://gishohaku.dev/?utm_source=website&utm_medium=portal&utm_campaign=top
-  imageUrl: https://gishohaku.dev/static/ogp.jpg
+- date: 2019.12.23
+  title: エンジニアの登壇を応援する忘年LT大会2019
+  description: 今年も残すところあとわずかとなりました！やはり年末といえば忘年会ですよね。 昨年に引き続き今年もやっちゃいます！今年1年を締めくくる総まとめイベントとして、私たちエンジニアが「今年どんなアウトプットをしたか？」「来年どんな目標を掲げるか？」を日本酒の肴にして振り返りを行える忘年LT大会を開催します。
+  url: https://engineers.connpass.com/event/158599/
+  imageUrl: https://connpass-tokyo.s3.amazonaws.com/thumbs/86/f2/86f28099a680e7a8f8e499366ad95c29.png

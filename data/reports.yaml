@@ -1,3 +1,13 @@
+- date: 2019.12.14
+  title: 技術書同人誌博覧会
+  description: 技術書同人誌博覧会は、エンジニアが技術書の頒布を通じて知識を共有する為のイベントです。サークル出展する個々のエンジニアが、それぞれ最も得意とする技術、最も世に広めたい技術を『技術書』として持ち寄り頒布することで、高い知識がコミュニティに還元されます。
+  url: https://gishohaku.dev/?utm_source=website&utm_medium=portal&utm_campaign=top
+  imageUrl: https://gishohaku.dev/static/ogp.jpg
+- date: 2019.10.25
+  title: 全員登壇！FlashTalk大会
+  description: 限られた時間の中でトーク技術を最大限駆使して聴衆に伝え、発信力を鍛えるためのトーク大会です。重要なセンテンスをぎゅっと凝縮して的確に伝えるための練習をみんなでやりましょう。
+  url: https://engineers.connpass.com/event/145032/
+  imageUrl: https://connpass-tokyo.s3.amazonaws.com/thumbs/52/08/5208f2ab8d3f030bde4466df8d9d40a0.png
 - date: 2019.3.18
   title: 『エンジニアの成長を応援する本』技術書典6で頒布します
   description: 私たちは、コミュニティの参加者から有志を募り、総勢20名で合同誌を作成しました。「様々なアウトプットを通じて成長を加速する」をテーマにして、寄稿者それぞれの成長を描いています。読者の皆さんがアウトプットの重要性を再認識し、成長のヒントになるような内容がつまっています。
@@ -35,12 +45,12 @@
   imageUrl: https://s3.qrunch.io/X35puVxoVLw6mQUCrDssvt0C1jkyNtNO.png
 - date: 2018.10.30
   title: 執筆の技術を勉強する会を開催しました
-  description: '私たちのコミュニティは『執筆の技術を勉強する会 #1』を2018年10月26日に開催しました。このエントリーでは、主催者としての主観を交えた感想をまとめています。各登壇者の発表資料や当日の内容についてはイベントレポートを是非ご覧下さい。また当日はTwitterでトレンド入りするほど活発にコメントされていましたのでTogetterも併せてご覧下さい。'
+  description: "私たちのコミュニティは『執筆の技術を勉強する会 #1』を2018年10月26日に開催しました。このエントリーでは、主催者としての主観を交えた感想をまとめています。各登壇者の発表資料や当日の内容についてはイベントレポートを是非ご覧下さい。また当日はTwitterでトレンド入りするほど活発にコメントされていましたのでTogetterも併せてご覧下さい。"
   url: https://ariaki.qrunch.io/entries/aB2vW1enRf9g8cga
   imageUrl: https://s3.qrunch.io/U0kZ6k4DlMSjwYfE2HIP0q2DphmPm7jG.png
 - date: 2018.10.24
   title: イベントのリハーサル会をしました
-  description: '本日は10月26日に私たちが主催するイベント『執筆の技術を勉強する会 #1』のスピーカーが集まり、リハーサル会を行いました。 このリハーサル会では、本番と同じスライドを使い、本番と同じトークをするのが特徴です。'
+  description: "本日は10月26日に私たちが主催するイベント『執筆の技術を勉強する会 #1』のスピーカーが集まり、リハーサル会を行いました。 このリハーサル会では、本番と同じスライドを使い、本番と同じトークをするのが特徴です。"
   url: https://ariaki.qrunch.io/entries/8tA8g1mhqwoQvvrI
   imageUrl: https://s3.qrunch.io/VxnqBs7mqIfMbYBOIcc5pu9ildK1EI0d.png
 - date: 2018.10.14
