@@ -4,12 +4,19 @@
       <section style="background-color: #fafafa;">
         <div class="container">
           <h2>Next Event <small>開催予定のイベント</small></h2>
+<!--
           <div class="reports">
             <ReportItem
               v-for="(report, key, index) in $page.events.data"
               :key="index"
               :item="report"
             />
+          </div>
+-->
+          <div class="reports" style="padding:8px; font-size:13px; line-height:1.6;color:#EF866B;">
+            新型コロナウイルス感染症が拡大している状況を受け、参加者および関係者の健康・安全面を第一に考慮した結果、当会が主催する2020年3月末までのすべてのイベントを中止することにいたしました。
+            ご理解のほど、よろしくお願いいたします。
+            次回イベント開催については2020年4月以降にご案内いたします。
           </div>
         </div>
       </section>
