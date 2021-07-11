@@ -35,5 +35,13 @@ module.exports = {
         route: '/:slug',
       }
     },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'data/members/*.yaml',
+        typeName: 'MemberProfile',
+        route: '/members/:accountName',
+      }
+    },
   ]
 }
